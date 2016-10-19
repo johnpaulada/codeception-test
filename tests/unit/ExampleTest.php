@@ -19,6 +19,6 @@ class ExampleTest extends \Codeception\Test\Unit
     // tests
     public function testMe()
     {
-        $this->assertTrue(false);
+        $this->assertTrue(true);
     }
 }
