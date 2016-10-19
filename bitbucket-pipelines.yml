@@ -9,7 +9,7 @@ pipelines:
     default:
         - step:
             script: # Modify the commands below to build your repository.
-                - php -r "phpinfo();"
+                - ls /usr/local/etc/php
                 - #apt-get update
                 - #apt-get -y --force-yes install git
                 - #php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
